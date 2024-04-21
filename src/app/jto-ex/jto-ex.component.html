@@ -26,12 +26,12 @@
 ]"></textarea>
                             <button class="text-white text-weight-bold bt"><i class="fa fa-file-excel-o" aria-hidden="true"></i> Download</button>
                         </form> -->
-                        <form #myForm="ngForm" (ngSubmit)="onSubmit(myForm)" class="px-5 pb-5">
+                        <form #myForm="ngForm" (ngSubmit)="onSubmit(myForm)" class="px-5 pb-5" style="min-width: 300p;">
                             <div class="d-flex"> 
                                 <img src="../../assets/image/filejsonico.svg" height="22px" width="22px" alt="" class="mr-3 mt-2">
                                 <h3 class="font-weight-bold">Paste Json Data</h3>
                             </div> 
-                            <textarea name="jsonData" ngModel class="form-control" rows="7" placeholder=
+                            <textarea name="jsonData" ngModel class="form-control" rows="6" placeholder=
                             'Format Ex: 
 [
     {
